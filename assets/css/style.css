@@ -1,0 +1,109 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 20px 35px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn-primary {
+    border: 2px;
+    color: #19303d;
+    background-color: #13e5c0;
+}
+
+.btn-dashed {
+    border: 2px dashed #19303d;
+    color: #19303d;
+    background-color: transparent;
+}
+
+.btn-primary:hover,
+.btn-dashed:hover {
+    background-color: #19303d;
+    color: #fff;
+}
+
+/* Header Section Start */
+
+/* Navbar Start */
+.menubar {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #19303d;
+    cursor: pointer;
+    display: none;
+}
+
+nav {
+    padding: 10px 0px;
+    background-color: #c6ffe0;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #232323;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.logo:hover {
+    color: #000;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.menu li a {
+    color: #19303d;
+    transition: all .3s;
+}
+
+.menu li a:hover {
+    color: #13e5c0;
+}
+/* Navbar End */
+
+/* Hero Section Start */
+
+/* Hero Section End */
+
+/* Header Section End */
