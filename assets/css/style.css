@@ -497,3 +497,41 @@ nav {
 }
 
 /* Solutions Section End */
+
+/* Time Save Section Start */
+.time-save {
+    padding: 80px 0px;
+}
+
+.time-save .section-title {
+    padding: 0px 25px;
+}
+
+.time-save-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.time-save-card {
+    border: 2px dashed #132835;
+    padding: 30px;
+    background-color: #f4fcf9;
+    border-radius: 5px;
+}
+
+.time-save-title {
+    font-size: 3.8rem;
+    color: #19303d;
+}
+
+.time-save-desc {
+    font-size: 1.1rem;
+    color: #19303d;
+    margin-top: 15px;
+    line-height: 26px;
+}
+
+
+/* Time Save Section End */

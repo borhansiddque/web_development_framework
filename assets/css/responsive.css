@@ -30,6 +30,14 @@
     .about-info {
         width: 100%;
     }
+
+    .time-save .section-title {
+        padding: 0px;
+    }
+
+    .time-save-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -61,6 +69,14 @@
 
     .solution-container {
         width: 90%;
+    }
+
+    .time-save-container {
+        grid-template-columns: 1fr;
+    }
+
+    .time-save-card {
+        text-align: center;
     }
     
 }
