@@ -18,6 +18,18 @@
     .hero-img {
         width: 100%;
     }
+
+    .about-section {
+        flex-direction: column-reverse;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-info {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -36,7 +48,7 @@
     }
 
     .service-section {
-        padding: 70px 0px;
+        padding: 50px 0px;
     }
 
     .service-container {
