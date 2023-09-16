@@ -48,6 +48,12 @@ a {
     color: #fff;
 }
 
+.section-title {
+    font-size: 3.8rem;
+    color: #19303d;
+    text-align: center;
+}
+
 /* Header Section Start */
 
 /* Navbar Start */
@@ -173,7 +179,7 @@ nav {
 
 /* Service Section Start */
 .service-section {
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 
 .service-container {
@@ -204,8 +210,9 @@ nav {
 
 /* Service Section End */
 
+/* About Section Start */
 .about-section {
-    padding: 50px 0px 100px;
+    padding: 80px 0px;
     display: flex;
     align-items: center;
     gap: 60px;
@@ -288,3 +295,54 @@ nav {
 .about-btn-two {
     margin-top: 10px;
 }
+
+/* About Section End */
+
+/* Feature Section Start */
+
+.feature-section {
+    padding: 80px 0px;
+}
+
+.feature-item-container {
+    margin-top: 50px;
+    display: grid;
+    gap: 30px;
+}
+
+.feature-item {
+    border: 2px dashed #19303d;
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.feature-item-icon {
+    width: 40%;
+    text-align: center;
+}
+
+.feature-item-icon i {
+    color: #13e5c0;
+    font-size: 10rem;
+}
+
+.feature-item-info {
+    width: 60%;
+}
+
+.feature-item-title {
+    font-size: 1.6rem;
+    font-weight: 700px;
+    color: #19303d;
+}
+
+.feature-item-desc {
+    font-size: 1.1rem;
+    color: #353535;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+
+/* Feature Section End */

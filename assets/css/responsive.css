@@ -40,6 +40,20 @@
     .service-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .feature-item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature-item-icon  {
+        width: 100%;
+    }
+
+    .feature-item-info {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -53,6 +67,14 @@
 
     .service-container {
         grid-template-columns: 1fr;
+    }
+
+    .feature-item {
+        padding: 20px;
+    }
+
+    .feature-item-icon i {
+        font-size: 7rem;
     }
 }
 
