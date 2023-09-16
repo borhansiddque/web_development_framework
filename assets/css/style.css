@@ -377,3 +377,81 @@ nav {
 }
 
 /* Why our Framework End */
+
+/* Framework Information Section Start */
+.framework-information {
+    padding: 80px 0px;
+}
+
+.framework-information-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.framework-information-one {
+    background-color: #19303d;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    grid-row: span 2;
+}
+
+.framework-information-one a {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.framework-information-one a:hover i {
+    padding-left: 5px;
+    transition: all .3s;
+}
+
+.framework-information-one h3 {
+    font-size: 1.6rem;
+}
+
+.framework-information-one p {
+    font-size: 1.1rem;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+
+.framework-information-two {
+    border: 2px dashed #132835;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.framework-information-two h3 {
+    color: #132835;
+    font-size: 1.6rem;
+}
+
+.framework-information-two p {
+    color: #353535;
+    font-size: 1.1rem;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+
+.framework-information-two div {
+    text-align: right;
+}
+
+.framework-information-two div i {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #19303d;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .3s;
+}
+
+.framework-information-two:hover div i {
+    margin-right: 0px;
+    background-color: #13e5c0;
+}
+
+/* Framework Information Section End */
