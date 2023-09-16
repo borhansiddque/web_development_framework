@@ -58,6 +58,11 @@
     .framework-information-container {
         grid-template-columns: 1fr;
     }
+
+    .solution-container {
+        width: 90%;
+    }
+    
 }
 
 @media screen and (max-width:576px) {
@@ -66,7 +71,8 @@
         font-size: 3rem;
     }
 
-    .hero-title {
+    .hero-title,
+    .solution-title {
         font-size: 3.2rem;
     }
 
@@ -89,6 +95,11 @@
     .our-framework-container {
         width: 100%;
     }
+
+    .solution-container {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width:375px) {
@@ -103,7 +114,8 @@
         margin: 0 auto;
     }
     
-    .hero-title {
+    .hero-title,
+    .solution-title {
         font-size: 2.5rem;
     }
 
