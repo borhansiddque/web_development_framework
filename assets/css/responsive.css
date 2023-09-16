@@ -24,11 +24,23 @@
     .menu {
         display: none;
     }
+
+    .service-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width:576px) {
     .hero-title {
         font-size: 3.2rem;
+    }
+
+    .service-section {
+        padding: 70px 0px;
+    }
+
+    .service-container {
+        grid-template-columns: 1fr;
     }
 }
 

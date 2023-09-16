@@ -171,3 +171,37 @@ nav {
 /* Hero Section End */
 
 /* Header Section End */
+
+/* Service Section Start */
+.service-section {
+    padding: 100px 0px;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-item {
+    text-align: center;
+    color: #232323;
+}
+
+.service-item i {
+    font-size: 5rem;
+    color: #13e5c0;
+}
+
+.service-item h3 {
+    font-size: 1.3rem;
+    margin: 20px 0px;
+}
+
+.service-item p {
+    font-size: 1.1rem;
+    line-height: 26px;
+}
+
+
+/* Service Section End */
