@@ -57,6 +57,11 @@
 }
 
 @media screen and (max-width:576px) {
+
+    .section-title {
+        font-size: 3rem;
+    }
+
     .hero-title {
         font-size: 3.2rem;
     }
@@ -76,18 +81,29 @@
     .feature-item-icon i {
         font-size: 7rem;
     }
+
+    .our-framework-container {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:375px) {
+    .section-title {
+        font-size: 2.5rem;
+    }
+
     .hero-framework-tag {
         flex-direction: column;
         gap: 10px;
         width: 250px;
         margin: 0 auto;
-
     }
     
     .hero-title {
         font-size: 2.5rem;
+    }
+
+    .our-framework-desc{
+        font-size: 1rem;
     }
 }
