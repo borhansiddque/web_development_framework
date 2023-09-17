@@ -673,3 +673,24 @@ nav {
 }
 
 /* Our Developers Section End */
+
+/* Clients Section Start */
+
+.clients-section {
+    padding: 80px 0px;
+    background-color: #c6ffe0;
+}
+
+.clients-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.clients-container img {
+    width: 150px;
+}
+/* Clients Section End */
