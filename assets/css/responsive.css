@@ -42,6 +42,10 @@
     .team-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .footer-info-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -90,6 +94,10 @@
     .founder-says-container {
         width: 100%;
     }
+
+    .footer-info-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 }
 
@@ -98,6 +106,22 @@
     .section-title,
     .team-section-title h2 {
         font-size: 3rem;
+    }
+
+    .hero-section,
+    .service-section,
+    .about-section,
+    .feature-section,
+    .why-our-framework,
+    .framework-information,
+    .solution-section,
+    .time-save,
+    .team-section,
+    .our-developers,
+    .clients-section,
+    .founder-says,
+    footer {
+        padding: 60px 0px;
     }
 
     .hero-title,
@@ -158,6 +182,15 @@
 
     .founder-desc {
         font-size: 1rem;
+    }
+
+    .footer-info-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-social {
+        justify-content: center;
     }
 }
 
