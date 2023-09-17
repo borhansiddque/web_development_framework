@@ -75,6 +75,9 @@ nav {
     background-color: #c6ffe0;
     border-bottom: 1px solid transparent;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
 }
 
 .nav-container {
@@ -552,10 +555,12 @@ nav {
 
 .team-section-title h2 {
     font-size: 4.6rem;
+    word-spacing: -10px;
 }
 
 .team-section-title p {
     font-size: 1.3rem;
+    margin-top: 10px;
 }
 
 .team-container {
@@ -610,3 +615,61 @@ nav {
 }
 
 /* Our Team Section End */
+
+/* Our Developers Section Start */
+.our-developers {
+    padding: 80px 0px;
+}
+
+.developers-section-title {
+    font-size: 1.6rem;
+    color: #232323;
+}
+
+.developers-container {
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+}
+
+.developer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4fcf9;
+    color: #232323;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.developer:hover {
+    background-color: #19303d;
+    color: #fff;
+}
+
+.developer i {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #13e5c0;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .3s;
+}
+
+.developer-info {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.developer-title {
+    font-size: 1.3rem;
+}
+
+.developer-name {
+    font-size: 1.1rem;
+}
+
+/* Our Developers Section End */

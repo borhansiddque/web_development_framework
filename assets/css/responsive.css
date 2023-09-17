@@ -91,7 +91,8 @@
 
 @media screen and (max-width:576px) {
 
-    .section-title {
+    .section-title,
+    .team-section-title h2 {
         font-size: 3rem;
     }
 
@@ -126,6 +127,22 @@
 
     .team-member-info {
         padding: 10px 20px;
+    }
+
+    .developers-section-title {
+        text-align: center;
+    }
+
+    .developer {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .developer-info {
+        flex-direction: column;
+        gap: 5px;
+
     }
 }
 
