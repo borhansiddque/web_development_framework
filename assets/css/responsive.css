@@ -86,6 +86,10 @@
     .team-container {
         grid-template-columns: 1fr;
     }
+
+    .founder-says-container {
+        width: 100%;
+    }
     
 }
 
@@ -142,7 +146,18 @@
     .developer-info {
         flex-direction: column;
         gap: 5px;
+    }
 
+    .founder-says-container {
+        padding: 20px;
+    }
+
+    .founder-name {
+        font-size: 1.2rem;
+    }
+
+    .founder-desc {
+        font-size: 1rem;
     }
 }
 

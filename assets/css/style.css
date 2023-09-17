@@ -694,3 +694,43 @@ nav {
     width: 150px;
 }
 /* Clients Section End */
+
+/* Founder Says Section Start */
+.founder-says {
+    padding: 80px 0px;
+}
+
+.founder-says-container {
+    background-color: #19303d;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.founder-name {
+    font-size: 1.6rem;
+}
+
+.founder-name a {
+    color: #c6ffe0;
+    transition: all .3s;
+}
+
+.founder-name a:hover {
+    color: #60ffa9 ;
+}
+
+.founder-desc {
+    font-size: 1.3rem;
+    line-height: 31px;
+    margin: 25px 0px;
+}
+
+.founder-says-container img {
+    width: 150px;
+    filter: brightness(10);
+}
+
+/* Founder Says Section End */
