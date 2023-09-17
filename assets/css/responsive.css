@@ -38,6 +38,10 @@
     .time-save-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .team-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -78,6 +82,10 @@
     .time-save-card {
         text-align: center;
     }
+
+    .team-container {
+        grid-template-columns: 1fr;
+    }
     
 }
 
@@ -116,6 +124,9 @@
         width: 100%;
     }
 
+    .team-member-info {
+        padding: 10px 20px;
+    }
 }
 
 @media screen and (max-width:375px) {

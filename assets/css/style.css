@@ -8,6 +8,11 @@
     font-family: 'IBM Plex Mono', monospace;
 }
 
+::selection {
+    background-color: #13e5c0;
+    color: #fff;
+}
+
 li {
     list-style: none;
 }
@@ -533,5 +538,75 @@ nav {
     line-height: 26px;
 }
 
-
 /* Time Save Section End */
+
+/* Our Team Section Start */
+.team-section {
+    padding: 80px 0px;
+}
+
+.team-section-title {
+    color: #132835;
+    text-align: center;
+}
+
+.team-section-title h2 {
+    font-size: 4.6rem;
+}
+
+.team-section-title p {
+    font-size: 1.3rem;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.team-member {
+    border: 2px dashed #132835;
+    border-radius: 5px;
+    position: relative;
+}
+
+.team-member img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-member-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding:10px;
+    background-color: rgba(35, 35, 35, 0.397);
+}
+
+.member-info {
+    color: #fafafa;
+}
+
+.member-info h3 {
+    font-size: 1.3rem;
+}
+
+.member-info p {
+    font-size: 1.1rem;
+}
+
+.team-member-info i {
+    padding: 10px;
+    background-color: #13e5c0;
+    color: #132835;
+    border-radius: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Our Team Section End */
